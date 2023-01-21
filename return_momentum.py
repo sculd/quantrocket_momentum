@@ -133,7 +133,7 @@ class USStockCommission(PerShareCommission):
 
 class UpMinusDownDemo(UpMinusDown):
 
-    CODE = "umd-demo"
+    CODE = "return-momentum"
     DB = "usstock-free-1d"
     UNIVERSES = "usstock-free"
     TOP_N_PCT = 50
