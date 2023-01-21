@@ -29,7 +29,7 @@ class UpMinusDown(Moonshot):
     - rebalance the portfolio according to REBALANCE_INTERVAL
     """
 
-    CODE = "umd"
+    CODE = "return-momentum"
     MOMENTUM_WINDOW = 252 # rank by twelve-month returns
     RANKING_PERIOD_GAP = 22 # but exclude most recent 1 month performance
     TOP_N_PCT = 50 # Buy/sell the top/bottom 50%
